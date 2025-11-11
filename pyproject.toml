@@ -2,4 +2,13 @@
 name = "PySide Widgets Project"
 
 [tool.pyside6-project]
-files = ["database.py", "form.ui", "konsumen.ui", "main.py"]
+# Tambahkan file .ui dan .py yang baru ke daftar ini
+files = [
+    "form.ui",
+    "konsumen.ui",
+    "alat_berat.ui",
+    "main.py",
+    "database.py",
+    "logika_konsumen.py",
+    "logika_alat_berat.py"
+]
