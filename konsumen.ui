@@ -6,223 +6,150 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>613</width>
-    <height>548</height>
+    <width>550</width>
+    <height>500</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Form Konsumen</string>
   </property>
-  <widget class="QGroupBox" name="groupBox">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>0</y>
-     <width>591</width>
-     <height>531</height>
-    </rect>
-   </property>
-   <property name="title">
-    <string>GroupBox</string>
-   </property>
-   <widget class="QPushButton" name="pushButton_Keluar">
-    <property name="geometry">
-     <rect>
-      <x>380</x>
-      <y>280</y>
-      <width>80</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Keluar</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_Hapus">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>280</y>
-      <width>80</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Hapus</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_Simpan">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>280</y>
-      <width>80</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Simpan</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_Ubah">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>280</y>
-      <width>80</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Ubah</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_idPelanggan">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>70</y>
-      <width>81</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>ID Pelanggan</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_namaPerusahaan">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>100</y>
-      <width>111</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Nama Perusahaan</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_Alamat">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>130</y>
-      <width>111</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Alamat</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_Telpon">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>220</y>
-      <width>111</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Telpon / fax</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_IdPelanggan">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>70</y>
-      <width>191</width>
-      <height>24</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_Telpon">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>170</y>
-      <width>191</width>
-      <height>24</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_NamaPerusahaan">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>100</y>
-      <width>191</width>
-      <height>24</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_Alamat">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>130</y>
-      <width>191</width>
-      <height>24</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>200</y>
-      <width>191</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTableWidget" name="tableWidget">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>340</y>
-      <width>571</width>
-      <height>131</height>
-     </rect>
-    </property>
-    <column>
-     <property name="text">
-      <string>id_pel</string>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>KONSUMEN:</string>
      </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>nm_perusahaan</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>nm_pemilik</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>alamat</string>
-     </property>
-    </column>
-   </widget>
-   <widget class="QLabel" name="lineEdit_NamaPemilik">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>170</y>
-      <width>111</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Nama Pemilik</string>
-    </property>
-   </widget>
-  </widget>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>ID Pelanggan</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="lineEdit_IdPelanggan"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Nama Perusahaan</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="lineEdit_NamaPerusahaan"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Nama Pemilik</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="lineEdit_NamaPemilik"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Alamat</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QTextEdit" name="textEdit_Alamat">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>80</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Telpon / Fax</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="lineEdit_Telpon"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="pushButton_Baru">
+        <property name="text">
+         <string>Baru</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_Simpan">
+        <property name="text">
+         <string>Simpan</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_Ubah">
+        <property name="text">
+         <string>Ubah</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_Hapus">
+        <property name="text">
+         <string>Hapus</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_Keluar">
+        <property name="text">
+         <string>Keluar</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="tableWidget"/>
+   </item>
+  </layout>
  </widget>
  <resources/>
  <connections/>
